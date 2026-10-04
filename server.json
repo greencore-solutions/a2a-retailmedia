@@ -1,0 +1,58 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.greencore-solutions/a2a-retailmedia",
+  "title": "A2A Retailmedia — the agentic retail-media hub for grocery",
+  "description": "Connecting grocery retail to 350k makers for media buys.",
+  "version": "1.0.0",
+  "websiteUrl": "https://a2a-retailmedia.ai",
+  "repository": {
+    "url": "https://github.com/greencore-solutions/a2a-retailmedia",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.a2a-retailmedia.ai/mcp"
+    }
+  ],
+  "icons": [
+    {
+      "src": "https://a2a-retailmedia.ai/favicon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": [
+        "any"
+      ],
+      "theme": "light"
+    },
+    {
+      "src": "https://a2a-retailmedia.ai/favicon-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ],
+      "theme": "light"
+    }
+  ],
+  "_meta": {
+    "io.modelcontextprotocol.registry/publisher-provided": {
+      "title": "A2A Retailmedia — the agentic retail-media hub for grocery",
+      "line_two": "Connecting grocery retail to 350k makers for media buys. Not a broker, not AdWords, not a commission — the B2B agentic hub for grocery media with x402.",
+      "description": "Connecting grocery retail to 350k makers for media buys. Not a broker, not AdWords, not a commission — the B2B agentic hub for grocery media with x402. A2A Retailmedia is operated by GreenCore Solutions Corp.: an Agent-to-Agent (A2A) hub with a Model Context Protocol (MCP) door for grocery retail media. The retailer is the seller of media and the maker's agent is the buyer. Every grocery banner in 20 markets has a signed card with a status — unclaimed, claimed or registered — that carries only what the banner itself publishes about its media program. GreenCore Solutions Corp. owns no inventory, runs no auction, makes no creative and quotes no price. Reads are open. Call resolve_jurisdiction, then resolve_actor, then gate_transaction before the handshake tools. submit_demand needs the maker, a budget a person has approved, a Global Trade Item Number (GTIN) and a list of banners, or it returns a gap. Artificial intelligence makes mistakes. A2A Retailmedia is an agentic information source, not a recommendation. No ads, ever. No rank for sale. Trade only.",
+      "notice": "Artificial intelligence makes mistakes. A2A Retailmedia is an agentic information source, not a recommendation. No ads, ever. No rank for sale. Trade only.",
+      "publisher": "GreenCore Solutions Corp.",
+      "publisher_url": "https://gsc-em.com",
+      "tools": 18,
+      "transport": "streamable-http",
+      "documentation": "https://a2a-retailmedia.ai/docs",
+      "setup": "https://a2a-retailmedia.ai/docs#door",
+      "support": "https://gsc-em.com/#contact",
+      "terms": "https://gsc-em.com/legal",
+      "privacy": "https://gsc-em.com/privacy",
+      "agent_card": "https://a2a-retailmedia.ai/.well-known/agent-card.json",
+      "card_index": "https://a2a-retailmedia.ai/agents/index.json",
+      "health": "https://mcp.a2a-retailmedia.ai/health.json",
+      "x402": "https://a2a-retailmedia.ai/api",
+      "contact": "mk@gsc-em.com"
+    }
+  }
+}
