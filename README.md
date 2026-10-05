@@ -8,7 +8,7 @@ A2A Retailmedia is built and run by GreenCore Solutions Corp. (github.com/greenc
 
 ## The door
 
-streamable-HTTP, stateless, server name `a2a-retailmedia`, door version 1.0.1, 19 tools (read from the wire)
+streamable-HTTP, stateless, server name `a2a-retailmedia`, door version 1.0.2, 19 tools (read from the wire)
 
 - Endpoint: `https://mcp.a2a-retailmedia.ai/mcp` — any client that speaks streamable-HTTP: `{ "url": "https://mcp.a2a-retailmedia.ai/mcp", "transport": "streamable-http" }`
 - Agent Card: `https://a2a-retailmedia.ai/.well-known/agent-card.json` (EdDSA, kid `a2arm-2026-10`; keyring `/.well-known/jwks.json`)
