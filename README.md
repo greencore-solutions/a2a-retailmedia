@@ -8,7 +8,7 @@ A2A Retailmedia is built and run by GreenCore Solutions Corp. (github.com/greenc
 
 ## The door
 
-streamable-HTTP, stateless, server name `a2a-retailmedia`, door version 1.0.0, 18 tools (read from the wire)
+streamable-HTTP, stateless, server name `a2a-retailmedia`, door version 1.0.1, 19 tools (read from the wire)
 
 - Endpoint: `https://mcp.a2a-retailmedia.ai/mcp` — any client that speaks streamable-HTTP: `{ "url": "https://mcp.a2a-retailmedia.ai/mcp", "transport": "streamable-http" }`
 - Agent Card: `https://a2a-retailmedia.ai/.well-known/agent-card.json` (EdDSA, kid `a2arm-2026-10`; keyring `/.well-known/jwks.json`)
@@ -37,6 +37,7 @@ Europe: France, Germany, Italy, Spain, Poland, UK, Netherlands, Belgium, Switzer
 - **Packages** — `list_packages`, `quote_package`, `find_buyer`
 - **Handshake** — `submit_demand`, `receive_demand`, `a2a_handoff`
 - **After** — `pull_measurement`, `renew_package`, `log_audit`
+- **Makers** — `enrol_maker`
 
 Reads are open. Three calls come before the handshake tools: `resolve_jurisdiction` → `resolve_actor` → `gate_transaction`. `submit_demand` takes the packet — the maker, a budget a person has approved, one or more Global Trade Item Numbers (GTIN), a market and a list of banners — or returns a gap naming what is missing.
 

@@ -3,7 +3,7 @@
   "name": "io.github.greencore-solutions/a2a-retailmedia",
   "title": "A2A Retailmedia — the agentic retail-media hub for grocery",
   "description": "Connecting grocery retail to 350k makers for media buys.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "websiteUrl": "https://a2a-retailmedia.ai",
   "repository": {
     "url": "https://github.com/greencore-solutions/a2a-retailmedia",
@@ -41,7 +41,7 @@
       "notice": "Artificial intelligence makes mistakes. A2A Retailmedia is an agentic information source, not a recommendation. No ads, ever. No rank for sale. Trade only.",
       "publisher": "GreenCore Solutions Corp.",
       "publisher_url": "https://gsc-em.com",
-      "tools": 18,
+      "tools": 19,
       "transport": "streamable-http",
       "documentation": "https://a2a-retailmedia.ai/docs",
       "setup": "https://a2a-retailmedia.ai/docs#door",
